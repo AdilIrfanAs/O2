@@ -1,0 +1,7 @@
+/* body .outland-odyssey{background: radial-gradient(50.77% 91.93% at 113.76% 122.44%, #E2D087 0%, #4D4123 53.13%, #322E1F 72.92%, #1D1D1D 100%);} */
+.outland-odyssey .nft-card::before{background: none;}
+.outland-odyssey .nft-card{border: 2px solid #E2D087;}
+.outland-odyssey .nft-img{border-color: #E2D087;}
+.outland-odyssey .nft-checkmark{border-color: #E2D087;background: #4D4423;}
+.outland-odyssey .nft-checkbox-container:hover input ~ .nft-checkmark{background: #4D4423;}
+.outland-odyssey .nft-checkbox-container input:checked ~ .nft-checkmark{background: #E2D087;}

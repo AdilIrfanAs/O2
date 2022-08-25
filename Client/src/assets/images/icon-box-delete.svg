@@ -1,0 +1,9 @@
+<svg id="icon_box-delete" data-name="icon/box-delete" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="Group">
+    <path id="Vector" d="M2.6,0H48.067a2.6,2.6,0,0,1,2.6,2.6V8.067a2.6,2.6,0,0,1-2.6,2.6H2.6A2.6,2.6,0,0,1,0,8.067V2.6A2.6,2.6,0,0,1,2.6,0Z" transform="translate(6.667 10.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-2" data-name="Vector" d="M8,0,0,8" transform="translate(28 33.333)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-3" data-name="Vector" d="M0,0,8,8" transform="translate(28 33.333)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-4" data-name="Vector" d="M35.093,32H7.573a5.333,5.333,0,0,1-5.315-4.891L0,0H42.667L40.408,27.109A5.333,5.333,0,0,1,35.093,32Z" transform="translate(10.667 21.333)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-5" data-name="Vector" d="M0,0H64V64H0Z" fill="none"/>
+  </g>
+</svg>

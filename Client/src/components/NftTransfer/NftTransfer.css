@@ -1,0 +1,68 @@
+.nft-block-container{max-width: 1518px;}
+.nft-transfer{padding: 90px 0;}
+.nft-transfer .fram-content{padding: 100px 62px 55px;}
+.nft-slider{background: rgb(19,19,19,0.5);box-shadow: inset -12px -12px 18px rgba(0, 0, 0, 0.34), inset 12px 12px 18px rgba(0, 0, 0, 0.34);border-radius: 10px;padding: 62px 0 10px 0;margin-right: 23px;}
+.nft-slider .slick-list{overflow: hidden;}
+.nft-slider .slick-track{display: flex;margin: 0 auto;}
+.nft-slider .slick-dots{display: flex !important;justify-content: center;list-style: none;}
+.nft-slider .slick-dots button{width: 6px;height: 12px;border: none;border-radius: 50%;background: #C4C4C480;margin-right: 10px;font-size: 0;}
+.nft-slider .slick-dots .slick-active button{background: #C4C4C4;}
+.nft-slider .slick-arrow{display: none !important;}
+.nft-slider .slick-slide{flex: none;}
+.nft-slider .nft-card-content{padding: 0 20px;margin-bottom: 12px;}
+.nft-slider .nft-card{max-width: 290px;margin: 0 auto;}
+.nft-slider .slick-slide, .nft-slider .slick-track{min-width: 280px;overflow-x: hidden;}
+.nft-transfer .bottom-btn{width: auto;}
+.nft-transfer .cancel-btn{margin-right: 40px;}
+.nft-transfer .bottom-btn img{width: 300px;height: 60px;}
+.nft-transfer .fram::before, .nft-transfer .fram::after{background-image: url("../../assets/images/login-fram-side.png");top: 18px;z-index: -1;}
+.nft-transfer .fram-content::before{background-image: url("../../assets/images/login-fram.png");bottom: -16px;z-index: 2;}
+.nft-transfer .fram-content::after{content: "";position: absolute;top: -18px;left: 5px;right: 5px;background-image: url("../../assets/images/login-fram.png");background-size: contain;background-repeat: no-repeat;height: 42px;transform: rotate(180deg);z-index: 0;}
+.nft-transfer .fram-title{position: absolute;left: 0;top: -45px;width: 100%;z-index: 1;}
+.nft-transfer form{padding: 0 0 100px 23px;}
+.nft-transfer form .form-input input{width: 100%;border: none;background: #212121;box-shadow: inset 6px 6px 18px rgb(0 0 0 / 84%);border-radius: 10px;font-size: 16px;line-height: 19px;padding: 15px 20px;color: #fff;}
+.nft-transfer form label{margin-bottom: 10px;font-size: 16px;line-height: 19px;}
+.nft-transfer form .input-wrapper{margin-bottom: 20px;}
+.nft-transfer .nft-card-body{padding: 20px 0 24px;}
+.nft-transfer .fram-top-gear{position: absolute;top: 0;right: 10px;z-index: -2;}
+.nft-transfer .fram-bottom-gear{position: absolute;bottom: 0;left: 10px;z-index: -2;}
+.nft-transfer .fram-mobile-bottom-gear{position: absolute;bottom: calc(0% - 85px);left: 50%;transform: translateX(-50%);}
+/* .nft-transfer .import-wallet{position: absolute;left: 50%;transform: translateY(-50%);bottom: -100px;} */
+.nft-trans-loader .proceed-trans{font-size: 45px;line-height: 54px;font-weight: 500;text-align: center;margin-bottom: 40px;}
+.nft-trans-loader .main-loader,.nft-trans-loader .tick-img{padding: 40px 0;}
+.nft-trans-loader p{margin-bottom: 40px;}
+.nft-transfer-btns{position: relative;z-index: 1;}
+/* .add-space{margin-bottom: 110px;} */
+@media (max-width: 1700px) {
+    .nft-block-container{max-width: 1400px;}
+}
+@media (max-width: 1499px) {
+    .nft-block-container{max-width: 1300px;}
+    .nft-transfer .fram-content{padding: 100px 50px 55px;}
+    .nft-transfer .cancel-btn{margin-right: 20px;}
+    .nft-transfer .bottom-btn img{width: 270px;height: 55px;}
+}
+@media (max-width: 991px) {
+    .nft-transfer form{padding: 20px 0 50px;}
+    .nft-slider{margin-right: 0;}
+    .nft-trans-loader .proceed-trans{font-size: 35px;line-height: 40px;}
+    .nft-trans-loader p{font-size: 18px;line-height: 21px;}
+}
+@media (max-width: 767px) {
+    .nft-transfer .bottom-btn{display: block;margin: 0 auto;}
+    .nft-transfer .bottom-btn:first-child{margin-bottom: 15px;}
+    .nft-trans-loader .proceed-trans{font-size: 28px;line-height: 32px;}
+    .nft-transfer .bottom-btn img{width: 380px;height: 45px;}
+}
+@media (max-width: 575px) {
+    .nft-transfer-btns{position: fixed;bottom: 0;background: #1F1C17;box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.75);padding: 15px;left: 0;width: 100%;z-index: 20;}
+    .nft-transfer form label{font-size: 12px;line-height: 14px;margin-bottom: 10px;}
+    .nft-transfer{padding: 85px 0 80px;}
+    .nft-transfer .fram::before, .nft-transfer .fram::after, .nft-transfer .fram-content::after, .nft-transfer .fram-content::before{content: none;}
+    .nft-transfer .fram-content{padding: 40px 2px 20px;}
+    .nft-transfer-loader{padding: 60px 0;}
+    .nft-transfer-loader .fram-content{padding: 0;}
+    .nft-trans-loader .proceed-trans{font-size: 21px;line-height: 25px;}
+    .nft-trans-loader p{font-size: 16px;line-height: 19px;}
+    .nft-transfer .fram-mobile-bottom-gear{z-index: -1;}
+}

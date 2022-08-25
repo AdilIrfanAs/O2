@@ -1,0 +1,22 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const transactions_controller_1 = require("../../../controllers/front/transactions.controller");
+const router = express_1.default.Router();
+router.route('/create-bsc-transaction').post(transactions_controller_1.createBscTransaction);
+router.route('/read-bsc/:id').get(transactions_controller_1.readBsc);
+router.route('/create-solana-transaction').post(transactions_controller_1.createSolanaTransaction);
+router.route('/read-solana/:id').get(transactions_controller_1.readSolana);
+router.route('/deposit-solana').post(transactions_controller_1.depositSolana);
+router.route('/transfer-tokens-to-bsc-wallet').post(transactions_controller_1.TransferTokensToBSCWallet);
+router.route('/transfer-tokens-to-solana-wallet').post(transactions_controller_1.TransferTokensToSolanaWallet);
+router.route('/create-custom-wallet-bsc-transaction').post(transactions_controller_1.createCustomWalletBscTransaction);
+router.route('/create-custom-wallet-solana-transaction').post(transactions_controller_1.createCustomWalletSolanaTransaction);
+router.route('/bsc-balance/:address').get(transactions_controller_1.bscBalance);
+router.route('/').post(transactions_controller_1.create);
+router.route('/').get(transactions_controller_1.list);
+router.route('/:id').get(transactions_controller_1.get);
+exports.default = router;

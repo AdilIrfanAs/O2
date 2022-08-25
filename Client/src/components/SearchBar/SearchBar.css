@@ -1,0 +1,43 @@
+.search-bar{margin-bottom: 40px;position: relative;}
+.search-sorting{display: flex;align-items: center;justify-content: end;}
+.serach-input-wrapper{width: 59%;margin-right: 60px;}
+.search-input input{font-family:"Copperplate";width:100%;font-size:16px;line-height:19px;padding:15px 20px 15px 65px;border:none;background:#2D292B;color:#FFF;clip-path:polygon(10px 0%,calc(100% - 10px) 0%,100% 10px,100% calc(100% - 10px),calc(100% - 10px) 100%,10px 100%,0% calc(100% - 10px),0% 10px)}
+.search-input input::placeholder{color:#E3D99B}
+.search-icon{position:absolute;top:13px;left:35px}
+.sorting-dropdown .dropdown-item{color:#fff;padding:14px 18px 14px 40px;font-size:18px;line-height:21px;font-weight:300}
+.sorting-dropdown{position:relative;border-radius:10px!important;font-size:18px;line-height:21px;font-weight:300}
+.sorting-dropdown .btn{background:#272727!important;border-radius:10px;border:none;padding:14px 18px 14px 40px}
+.sorting-dropdown .dropdown-toggle::after{width:90px;background-position:right top 50%}
+.sorting{display:flex;align-items:center}
+.sort-by{margin-right:10px;font-size:16px;line-height:19px;font-weight:600}
+.search-dropdown{background:#2D292B;box-shadow:0 4px 25px rgba(0,0,0,0.75);border-radius:5px;position:absolute;z-index:20;width:100%}
+.search-dropdown .dropdown-row{padding:14px 37px;border-bottom:1px solid #000;cursor:pointer}
+.search-dropdown .dropdown-row span{font-size:21px;line-height:25px;font-weight:600}
+.search-filter-type{font-size:16px;line-height:19px;font-weight:300;padding:8px 15px 7px 10px;background:#2D292B;border-radius:5px;margin-right:20px;display:inline-flex;align-items:center}
+.search-filter-type svg{margin-right:19px;cursor:pointer}
+.search-filter-catagory .clear-all{font-size:16px;line-height:19px;font-weight:300;color:#fff}
+.search-filter-catagory .clear-all:hover{color:#59B794}
+@media (max-width: 1799px) {
+    .serach-input-wrapper {width: 55%;margin-right: 65px;}
+}
+@media (max-width: 1699px){
+    .serach-input-wrapper {width: 52%;}
+}
+@media (max-width: 1599px){
+    .serach-input-wrapper {width: 49%;}
+}
+@media (max-width: 991px){
+    .serach-input-wrapper{width: 80%;}
+}
+@media (max-width: 767px) {
+    .search-sorting{display: block;}
+    .serach-input-wrapper {width: 100%;margin-bottom: 20px;}
+    .sorting{justify-content: end;}
+    .search-bar .block-container{padding: 0;}
+    .search-bar{padding: 0 12px;}
+}
+@media (max-width: 575px) {
+    .search-input input{padding: 10px 8px 10px 30px;}
+    .search-icon {left: 9px;top: 11px;}
+    .search-icon svg{width: 20px;height: 20px;}
+}

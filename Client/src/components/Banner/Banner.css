@@ -1,0 +1,18 @@
+.banner-bg img{height: 250px;object-fit: fill;}
+.banner-user-img {padding: 10px;background: #141414;display: inline-block;border-radius: 50%;}
+.banner-user-img img{border-radius: 50%;}
+.user-profile{margin-top: -150px;}
+.user-profile h2{font-size: 36px;line-height: 43px;font-weight: 600;margin-bottom: 15px !important;}
+.user-profile span{font-size: 16px;line-height: 19px;font-weight: 600;display: inline-block;}
+.user-profile .wallet-address{margin-right: 26px;}
+.banner-bg{text-align: center;}
+@media (max-width: 1599px) {
+    .banner-bg img {height: 220px;object-fit: fill;}
+}
+@media (max-width: 991px) {
+    .user-profile h2 {font-size: 30px;line-height: 42px;}
+}
+@media (max-width: 575px) {
+    .user-profile h2 {font-size: 25px;line-height: 33px;}
+    .user-profile span {font-size: 14px;line-height: 17px;} 
+}

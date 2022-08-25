@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const router = express_1.default.Router();
+const auth_route_1 = __importDefault(require("./auth.route"));
+const transactions_route_1 = __importDefault(require("./transactions.route"));
+const exchange_route_1 = __importDefault(require("./exchange.route"));
+const unity_route_1 = __importDefault(require("./unity.route"));
+const wallets_route_1 = __importDefault(require("./wallets.route"));
+const activity_routes_1 = __importDefault(require("./activity.routes"));
+router.use('/auth', auth_route_1.default);
+router.use('/transactions', transactions_route_1.default);
+router.use('/exchange', exchange_route_1.default);
+router.use('/unity', unity_route_1.default);
+router.use('/wallets', wallets_route_1.default);
+router.use('/activity', activity_routes_1.default);
+exports.default = router;

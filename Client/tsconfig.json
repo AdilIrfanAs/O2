@@ -1,0 +1,13 @@
+{
+    "include": [
+        "src/*"
+    ],
+    "compilerOptions": {
+        "target": "es2015",
+        "jsx": "react-jsx",
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "strict": false,
+        "allowSyntheticDefaultImports": true
+    }
+}

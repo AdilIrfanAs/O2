@@ -1,0 +1,12 @@
+<svg id="icon_loading" data-name="icon/loading" xmlns="http://www.w3.org/2000/svg" width="164" height="164" viewBox="0 0 164 164">
+  <g id="Group" transform="translate(16.216 16.216)">
+    <path id="Path" d="M1.667,0V18.27" transform="translate(63.982 113.027)" fill="none" stroke="#7ce5cf" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path-2" data-name="Path" d="M12.865,0,0,12.865" transform="translate(14.271 104.162)" fill="none" stroke="#7ce5cf" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path-3" data-name="Path" d="M18.27,1.667H0" transform="translate(0 63.982)" fill="none" stroke="#7ce5cf" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path-4" data-name="Path" d="M0,0,12.865,12.865" transform="translate(14.271 14.27)" fill="none" stroke="#7ce5cf" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path-5" data-name="Path" d="M1.667,16.216V0" transform="translate(63.982)" fill="none" stroke="#7ce5cf" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path-6" data-name="Path" d="M0,8.595,8.595,0" transform="translate(108.433 14.27)" fill="none" stroke="#7ce5cf" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path-7" data-name="Path" d="M8.108,1.667H0" transform="translate(123.189 63.982)" fill="none" stroke="#7ce5cf" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path-8" data-name="Path" d="M3.648,3.648.783.783" transform="translate(113.38 113.379)" fill="none" stroke="#7ce5cf" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>
